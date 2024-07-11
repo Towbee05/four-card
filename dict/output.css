@@ -684,6 +684,10 @@ body{
   inset: -0.25rem;
 }
 
+.bottom-0{
+  bottom: 0px;
+}
+
 .end-1{
   inset-inline-end: 0.25rem;
 }
@@ -754,6 +758,10 @@ body{
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.mt-5{
+  margin-top: 1.25rem;
 }
 
 .box-border{
@@ -859,6 +867,10 @@ body{
   height: 100%;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .min-h-screen{
   min-height: 100vh;
 }
@@ -877,6 +889,10 @@ body{
 
 .w-\[weird-and-invalid\]{
   width: weird-and-invalid;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .max-w-\[1200px\]{
@@ -2002,25 +2018,25 @@ body{
   padding-right: 1.25rem;
 }
 
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.pt-10{
-  padding-top: 2.5rem;
-}
-
-.pt-16{
-  padding-top: 4rem;
-}
-
-.pt-14{
-  padding-top: 3.5rem;
+.py-12{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .pt-12{
   padding-top: 3rem;
+}
+
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
+.pb-2{
+  padding-bottom: 0.5rem;
+}
+
+.pb-6{
+  padding-bottom: 1.5rem;
 }
 
 .text-left{
@@ -2627,6 +2643,10 @@ body{
 }
 
 @media (min-width: 0px) and (max-width: 900px){
+  .xxs\:relative{
+    position: relative;
+  }
+
   .xxs\:grid-cols-1{
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
